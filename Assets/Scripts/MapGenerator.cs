@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlatformGenerator: MonoBehaviour {
+public class MapGenerator: MonoBehaviour {
 
     public GameObject thePlatform;
     public Transform generationPoint;

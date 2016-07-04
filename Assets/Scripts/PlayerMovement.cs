@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour {
             }
             else if (!isGround && !jumped)
             {
-                playerRigidBody.velocity += new Vector2(0, jumpForce);
+                playerRigidBody.velocity = new Vector2(playerRigidBody.velocity.x, jumpForce * 1.25f);
                 jumped = true;
             }
         }
