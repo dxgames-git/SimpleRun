@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour {
     public float speed;
     public float jumpForce;
     public bool isGround;
+    public bool jumped;
     public LayerMask whatIsGround;
 
     private Rigidbody2D playerRigidBody;
@@ -20,11 +21,21 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         isGround = Physics2D.IsTouchingLayers(myCollider, whatIsGround);
+        if (jumped && isGround)
+        {
+            jumped = false;
+        }
+        
         playerRigidBody.velocity = new Vector2(speed, playerRigidBody.velocity.y);
 
         if (Input.GetKeyDown(KeyCode.Space)){
             if (isGround) {
                 playerRigidBody.velocity = new Vector2(playerRigidBody.velocity.x, jumpForce);
+            }
+            else if (!isGround && !jumped)
+            {
+                playerRigidBody.velocity += new Vector2(0, jumpForce);
+                jumped = true;
             }
         }
 	}
