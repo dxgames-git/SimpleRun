@@ -8,7 +8,7 @@ public class CameraController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        thePlayer = GameObject.FindGameObjectWithTag("ThePlayer");
+        thePlayer = GameObject.FindGameObjectWithTag("Player");
         level = 0.96f;
 	}
 	

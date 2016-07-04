@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: d98512543d04b9642b31dc4f85180eb0
+timeCreated: 1467662476
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Stick Figure Sprites DC_0
+    21300002: Stick Figure Sprites DC_1
+    21300004: Stick Figure Sprites DC_2
+    21300006: Stick Figure Sprites DC_3
+    21300008: Stick Figure Sprites DC_4
+    21300010: Stick Figure Sprites DC_5
+    21300012: Stick Figure Sprites DC_6
+    21300014: Stick Figure Sprites DC_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Stick Figure Sprites DC_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 46
+        width: 214
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.072678, y: -65.91011}
+        - {x: 63.072678, y: 142.08989}
+        - {x: 40.072678, y: 155.08989}
+        - {x: -49.927322, y: 155.08989}
+        - {x: -61.927322, y: 141.08989}
+        - {x: -61.927322, y: -54.91011}
+        - {x: -60.927322, y: -60.91011}
+        - {x: -58.927322, y: -62.91011}
+        - {x: -46.927322, y: -65.91011}
+        - {x: -35.927322, y: -23.91011}
+        - {x: -58.927322, y: -153.91011}
+        - {x: 42.072678, y: -153.91011}
+        - {x: 34.072678, y: -80.91011}
+        - {x: 52.072678, y: -77.91011}
+    - name: Stick Figure Sprites DC_1
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 39
+        width: 337
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.638443, y: 147.04361}
+        - {x: -53.361557, y: 116.04361}
+        - {x: -93.36156, y: -10.95639}
+        - {x: -77.36156, y: -27.95639}
+        - {x: -91.36156, y: -33.95639}
+        - {x: -97.36156, y: -42.95639}
+        - {x: -97.36156, y: -50.95639}
+        - {x: -39.361557, y: -97.95639}
+        - {x: -37.361557, y: -97.95639}
+        - {x: -33.361557, y: -95.95639}
+        - {x: -0.361557, y: -145.95639}
+        - {x: 23.638443, y: -145.95639}
+        - {x: 98.63844, y: 51.04361}
+        - {x: 98.63844, y: 122.04361}
+        - {x: 80.63844, y: 147.04361}
+    - name: Stick Figure Sprites DC_2
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 29
+        width: 334
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.450745, y: 148.2632}
+        - {x: -96.450745, y: 106.2632}
+        - {x: -96.450745, y: -125.7368}
+        - {x: -77.450745, y: -146.7368}
+        - {x: 35.549255, y: -146.7368}
+        - {x: 97.549255, y: -24.736801}
+        - {x: 97.549255, y: 148.2632}
+    - name: Stick Figure Sprites DC_3
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 41
+        width: 298
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.115295, y: 152.19969}
+        - {x: -56.115295, y: 76.19969}
+        - {x: -73.115295, y: 16.199692}
+        - {x: -86.115295, y: -43.80031}
+        - {x: -86.115295, y: -54.80031}
+        - {x: -82.115295, y: -57.80031}
+        - {x: -73.115295, y: -58.80031}
+        - {x: -68.115295, y: -48.80031}
+        - {x: -81.115295, y: -74.80031}
+        - {x: -86.115295, y: -81.80031}
+        - {x: -82.115295, y: -92.80031}
+        - {x: -51.115295, y: -145.80031}
+        - {x: -40.115295, y: -150.80031}
+        - {x: -33.115295, y: -150.80031}
+        - {x: 50.884705, y: -83.80031}
+        - {x: 86.884705, y: 14.199692}
+        - {x: 86.884705, y: 152.19969}
+    - name: Stick Figure Sprites DC_4
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 39
+        width: 275
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69.72168, y: 150.04361}
+        - {x: -79.72168, y: 88.04361}
+        - {x: -79.72168, y: -148.95639}
+        - {x: -48.72168, y: -148.95639}
+        - {x: 25.27832, y: -135.95639}
+        - {x: 80.27832, y: 38.04361}
+        - {x: 80.27832, y: 139.04361}
+        - {x: 69.27832, y: 150.04361}
+    - name: Stick Figure Sprites DC_5
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 39
+        width: 308
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.958984, y: 152.54361}
+        - {x: -88.958984, y: -106.45639}
+        - {x: -88.958984, y: -134.45639}
+        - {x: -79.958984, y: -135.45639}
+        - {x: -2.9589844, y: -117.45639}
+        - {x: -31.958984, y: -140.45639}
+        - {x: -32.958984, y: -144.45639}
+        - {x: -24.958984, y: -151.45639}
+        - {x: -12.958984, y: -151.45639}
+        - {x: 90.041016, y: -99.45639}
+        - {x: 90.041016, y: 151.54361}
+        - {x: 89.041016, y: 152.54361}
+    - name: Stick Figure Sprites DC_6
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 42
+        width: 337
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.335083, y: 149.27773}
+        - {x: -46.335083, y: 137.27773}
+        - {x: -97.33508, y: -88.722275}
+        - {x: -97.33508, y: -136.72227}
+        - {x: -90.33508, y: -148.72227}
+        - {x: 41.664917, y: -148.72227}
+        - {x: 98.66492, y: -32.722275}
+        - {x: 98.66492, y: 136.27773}
+        - {x: 66.66492, y: 149.27773}
+    - name: Stick Figure Sprites DC_7
+      rect:
+        serializedVersion: 2
+        x: 3143
+        y: 61
+        width: 335
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.716553, y: 149.26051}
+        - {x: -96.71655, y: 36.260513}
+        - {x: -96.71655, y: -137.73949}
+        - {x: -83.71655, y: -148.73949}
+        - {x: 94.28345, y: -148.73949}
+        - {x: 98.28345, y: -139.73949}
+        - {x: 98.28345, y: 148.26051}
+        - {x: 95.28345, y: 149.26051}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

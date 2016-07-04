@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         playerRigidBody = GetComponent<Rigidbody2D>();
-        myCollider = GetComponent<Collider2D>();
+        myCollider = GetComponent<EdgeCollider2D>();
         anim = gameObject.GetComponent<Animator>();
     }
 	
