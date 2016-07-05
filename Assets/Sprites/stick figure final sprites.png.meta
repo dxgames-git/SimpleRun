@@ -1,0 +1,649 @@
+fileFormatVersion: 2
+guid: 2b4319c4288444747809072a3acc8cd9
+timeCreated: 1467682271
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: stick figure final sprites_0
+    21300002: stick figure final sprites_1
+    21300004: stick figure final sprites_2
+    21300006: stick figure final sprites_3
+    21300008: stick figure final sprites_4
+    21300010: stick figure final sprites_5
+    21300012: stick figure final sprites_6
+    21300014: stick figure final sprites_7
+    21300016: stick figure final sprites_8
+    21300018: stick figure final sprites_9
+    21300020: stick figure final sprites_10
+    21300022: stick figure final sprites_11
+    21300024: stick figure final sprites_12
+    21300026: stick figure final sprites_13
+    21300028: stick figure final sprites_14
+    21300030: stick figure final sprites_15
+    21300032: stick figure final sprites_16
+    21300034: stick figure final sprites_17
+    21300036: stick figure final sprites_18
+    21300038: stick figure final sprites_19
+    21300040: stick figure final sprites_20
+    21300042: stick figure final sprites_21
+    21300044: stick figure final sprites_22
+    21300046: stick figure final sprites_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: stick figure final sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1722
+        width: 213
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 160.40686}
+        - {x: -40, y: 160.40686}
+        - {x: -64, y: 136.40686}
+        - {x: -64, y: -63.59314}
+        - {x: -51, y: -64.59314}
+        - {x: -49, y: -60.59314}
+        - {x: -50, y: -158.59314}
+        - {x: 47, y: -158.59314}
+        - {x: 64, y: -124.59314}
+        - {x: 64, y: 125.40686}
+        - {x: 49, y: 157.40686}
+    - name: stick figure final sprites_1
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1715
+        width: 337
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.063324, y: 152.20398}
+        - {x: -66.063324, y: 47.20398}
+        - {x: -92.063324, y: -8.7960205}
+        - {x: -81.063324, y: -22.79602}
+        - {x: -95.063324, y: -34.79602}
+        - {x: -101.063324, y: -43.79602}
+        - {x: -101.063324, y: -52.79602}
+        - {x: -42.063324, y: -115.79602}
+        - {x: 6.936676, y: -150.79602}
+        - {x: 33.936676, y: -150.79602}
+        - {x: 102.936676, y: 50.20398}
+        - {x: 102.936676, y: 150.20398}
+        - {x: 96.936676, y: 152.20398}
+    - name: stick figure final sprites_2
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1705
+        width: 333
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100.35602, y: -9.800171}
+        - {x: -100.35602, y: -101.80017}
+        - {x: -41.356018, y: -151.80017}
+        - {x: 42.643982, y: -151.80017}
+        - {x: 100.64398, y: -26.80017}
+        - {x: 100.64398, y: 137.19983}
+        - {x: 89.64398, y: 153.19983}
+        - {x: -10.356018, y: 153.19983}
+        - {x: -88.35602, y: 75.19983}
+    - name: stick figure final sprites_3
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1717
+        width: 296
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.861877, y: 157.40479}
+        - {x: -58.861877, y: 105.404785}
+        - {x: -88.86188, y: -12.595215}
+        - {x: -88.86188, y: -57.595215}
+        - {x: -76.86188, y: -59.595215}
+        - {x: -72.86188, y: -50.595215}
+        - {x: -84.86188, y: -76.595215}
+        - {x: -88.86188, y: -81.595215}
+        - {x: -88.86188, y: -118.595215}
+        - {x: -46.861877, y: -155.59521}
+        - {x: -7.8618774, y: -155.59521}
+        - {x: 89.13812, y: -42.595215}
+        - {x: 89.13812, y: 157.40479}
+    - name: stick figure final sprites_4
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 1715
+        width: 274
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.753174, y: 8.2039795}
+        - {x: 64.753174, y: 25.20398}
+        - {x: 83.753174, y: 63.20398}
+        - {x: 83.753174, y: 137.20398}
+        - {x: 76.753174, y: 150.20398}
+        - {x: 56.753174, y: 155.20398}
+        - {x: -32.246826, y: 155.20398}
+        - {x: -68.246826, y: 109.20398}
+        - {x: -82.246826, y: -36.79602}
+        - {x: -82.246826, y: -153.79602}
+        - {x: -65.246826, y: -153.79602}
+        - {x: 12.753174, y: -127.79602}
+        - {x: 7.753174, y: -98.79602}
+        - {x: 66.753174, y: -17.79602}
+        - {x: 72.753174, y: 0.20397949}
+    - name: stick figure final sprites_5
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 1715
+        width: 306
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.12024, y: -32.29602}
+        - {x: 92.12024, y: 33.70398}
+        - {x: 92.12024, y: 138.70398}
+        - {x: 82.12024, y: 157.70398}
+        - {x: -7.8797607, y: 157.70398}
+        - {x: -51.87976, y: 111.70398}
+        - {x: -91.87976, y: -112.29602}
+        - {x: -91.87976, y: -139.29602}
+        - {x: -86.87976, y: -140.29602}
+        - {x: -9.879761, y: -122.29602}
+        - {x: -4.8797607, y: -120.29602}
+        - {x: -5.8797607, y: -99.29602}
+        - {x: 22.12024, y: -102.29602}
+        - {x: -32.87976, y: -144.29602}
+        - {x: -34.87976, y: -150.29602}
+        - {x: -26.87976, y: -156.29602}
+        - {x: -14.879761, y: -156.29602}
+        - {x: 48.12024, y: -105.29602}
+        - {x: 48.12024, y: -100.29602}
+        - {x: 66.12024, y: -48.29602}
+    - name: stick figure final sprites_6
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 1718
+        width: 335
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.3786621, y: 155.00513}
+        - {x: -42.621338, y: 140.00513}
+        - {x: -100.62134, y: -56.994873}
+        - {x: -100.62134, y: -153.99487}
+        - {x: 19.378662, y: -153.99487}
+        - {x: 83.37866, y: -58.994873}
+        - {x: 102.37866, y: 29.005127}
+        - {x: 102.37866, y: 137.00513}
+        - {x: 79.37866, y: 155.00513}
+    - name: stick figure final sprites_7
+      rect:
+        serializedVersion: 2
+        x: 3076
+        y: 1737
+        width: 335
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.86255, y: -41.087036}
+        - {x: 51.86255, y: -39.087036}
+        - {x: 86.86255, y: -12.087036}
+        - {x: 98.86255, y: 3.9129639}
+        - {x: 84.86255, y: 12.912964}
+        - {x: 58.86255, y: -10.087036}
+        - {x: 101.86255, y: 49.912964}
+        - {x: 101.86255, y: 155.91296}
+        - {x: -36.13745, y: 155.91296}
+        - {x: -100.13745, y: 30.912964}
+        - {x: -100.13745, y: -45.087036}
+        - {x: -69.13745, y: -54.087036}
+        - {x: -63.13745, y: -44.087036}
+        - {x: -19.137451, y: -43.087036}
+        - {x: -97.13745, y: -66.087036}
+        - {x: -100.13745, y: -74.087036}
+        - {x: -100.13745, y: -84.087036}
+        - {x: -99.13745, y: -84.087036}
+        - {x: -37.13745, y: -102.087036}
+        - {x: 14.862549, y: -153.08704}
+        - {x: 18.862549, y: -154.08704}
+        - {x: 32.86255, y: -154.08704}
+        - {x: 55.86255, y: -48.087036}
+        - {x: -1.1374512, y: -46.087036}
+    - name: stick figure final sprites_8
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1082
+        width: 283
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 84.596466, y: 28.644104}
+        - {x: 85.596466, y: 31.644104}
+        - {x: 85.596466, y: 101.644104}
+        - {x: 61.596466, y: 124.644104}
+        - {x: -60.403534, y: 124.644104}
+        - {x: -85.403534, y: 79.644104}
+        - {x: -85.403534, y: -123.355896}
+        - {x: 34.596466, y: -123.355896}
+        - {x: 63.596466, y: -60.355896}
+        - {x: 58.596466, y: -44.355896}
+        - {x: 53.596466, y: -47.355896}
+    - name: stick figure final sprites_9
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 1014
+        width: 295
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.42798, y: 157.81622}
+        - {x: -50.57202, y: 157.81622}
+        - {x: -88.57202, y: 90.81622}
+        - {x: -88.57202, y: -1.1837769}
+        - {x: 49.42798, y: -156.18378}
+        - {x: 74.42798, y: -156.18378}
+        - {x: 76.42798, y: -153.18378}
+        - {x: 90.42798, y: -129.18378}
+        - {x: 90.42798, y: 139.81622}
+    - name: stick figure final sprites_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 551
+        width: 278
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.10025, y: 121.32617}
+        - {x: -55.10025, y: 49.32617}
+        - {x: -30.10025, y: 5.326172}
+        - {x: -74.10025, y: -32.67383}
+        - {x: -69.10025, y: -42.67383}
+        - {x: -67.10025, y: -50.67383}
+        - {x: -68.10025, y: -46.67383}
+        - {x: -71.10025, y: -41.67383}
+        - {x: -83.10025, y: -47.67383}
+        - {x: -83.10025, y: -62.67383}
+        - {x: -67.10025, y: -119.67383}
+        - {x: -11.10025, y: -119.67383}
+        - {x: 3.8997498, y: -116.67383}
+        - {x: 84.89975, y: -15.673828}
+        - {x: 84.89975, y: 97.32617}
+        - {x: 70.89975, y: 121.32617}
+    - name: stick figure final sprites_11
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 468
+        width: 308
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.151245, y: 147.9921}
+        - {x: -27.151245, y: 124.992096}
+        - {x: -38.151245, y: 91.992096}
+        - {x: -36.151245, y: 69.992096}
+        - {x: -29.151245, y: 53.992096}
+        - {x: -24.151245, y: 44.992096}
+        - {x: -92.151245, y: -94.007904}
+        - {x: -92.151245, y: -117.007904}
+        - {x: -43.151245, y: -146.0079}
+        - {x: 19.848755, y: -146.0079}
+        - {x: 93.848755, y: -24.007904}
+        - {x: 93.848755, y: 144.9921}
+        - {x: 76.848755, y: 147.9921}
+    - name: stick figure final sprites_12
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 483
+        width: 385
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.496521, y: 117.49826}
+        - {x: -91.50348, y: -5.5017395}
+        - {x: -115.50348, y: -36.50174}
+        - {x: -115.50348, y: -90.50174}
+        - {x: -65.50348, y: -115.50174}
+        - {x: -50.50348, y: -115.50174}
+        - {x: 90.49652, y: -59.50174}
+        - {x: 117.49652, y: -14.5017395}
+        - {x: 117.49652, y: 117.49826}
+    - name: stick figure final sprites_13
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 534
+        width: 428
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 129.17914, y: -18.380798}
+        - {x: 129.17914, y: 83.6192}
+        - {x: 126.17914, y: 86.6192}
+        - {x: 25.179138, y: 86.6192}
+        - {x: -128.82086, y: -6.3807983}
+        - {x: -128.82086, y: -73.3808}
+        - {x: -99.82086, y: -85.3808}
+        - {x: -62.82086, y: -85.3808}
+        - {x: -19.820862, y: -34.3808}
+        - {x: -16.820862, y: -29.380798}
+        - {x: 82.17914, y: -57.3808}
+        - {x: 120.17914, y: -47.3808}
+    - name: stick figure final sprites_14
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 529
+        width: 393
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.711914, y: 65.61713}
+        - {x: -92.711914, y: 47.617126}
+        - {x: -95.711914, y: 33.617126}
+        - {x: -94.711914, y: 28.617126}
+        - {x: -100.711914, y: 29.617126}
+        - {x: -103.711914, y: 29.617126}
+        - {x: -111.711914, y: 21.617126}
+        - {x: -111.711914, y: 18.617126}
+        - {x: -107.711914, y: 13.617126}
+        - {x: -98.711914, y: 6.6171265}
+        - {x: -117.711914, y: -4.3828735}
+        - {x: -117.711914, y: -12.382874}
+        - {x: -114.711914, y: -20.382874}
+        - {x: -55.711914, y: -31.382874}
+        - {x: -52.711914, y: -30.382874}
+        - {x: -55.711914, y: -17.382874}
+        - {x: -58.711914, y: -11.382874}
+        - {x: -44.711914, y: -0.38287354}
+        - {x: -43.711914, y: 4.6171265}
+        - {x: 6.288086, y: -64.38287}
+        - {x: 106.288086, y: -64.38287}
+        - {x: 119.288086, y: -39.382874}
+        - {x: 119.288086, y: 55.617126}
+        - {x: 104.288086, y: 65.61713}
+    - name: stick figure final sprites_15
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 483
+        width: 374
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.32019043, y: 82.99826}
+        - {x: -96.32019, y: 82.99826}
+        - {x: -105.32019, y: 72.99826}
+        - {x: -112.32019, y: 51.99826}
+        - {x: -112.32019, y: 26.99826}
+        - {x: -62.32019, y: -4.0017395}
+        - {x: -40.32019, y: 25.99826}
+        - {x: -42.32019, y: 35.99826}
+        - {x: -17.32019, y: -34.00174}
+        - {x: -6.3201904, y: -55.00174}
+        - {x: 5.6798096, y: -76.00174}
+        - {x: 15.67981, y: -81.00174}
+        - {x: 99.67981, y: -81.00174}
+        - {x: 112.67981, y: -57.00174}
+        - {x: 112.67981, y: 36.99826}
+        - {x: 88.67981, y: 59.99826}
+    - name: stick figure final sprites_16
+      rect:
+        serializedVersion: 2
+        x: 2833
+        y: 471
+        width: 307
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.03711, y: 103.793335}
+        - {x: -92.03711, y: 103.793335}
+        - {x: -92.03711, y: -25.206665}
+        - {x: -22.03711, y: -102.206665}
+        - {x: 67.96289, y: -102.206665}
+        - {x: 76.96289, y: -97.206665}
+        - {x: 93.96289, y: -74.206665}
+        - {x: 93.96289, y: -11.206665}
+        - {x: 70.96289, y: 29.793335}
+    - name: stick figure final sprites_17
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 0
+        width: 213
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.596161, y: 117.5}
+        - {x: -26.59616, y: 56.5}
+        - {x: 12.403839, y: 37.5}
+        - {x: -34.59616, y: 12.5}
+        - {x: -63.59616, y: -26.5}
+        - {x: -63.59616, y: -117.5}
+        - {x: 63.40384, y: -117.5}
+        - {x: 65.40384, y: -112.5}
+        - {x: 65.40384, y: 108.5}
+        - {x: 42.40384, y: 117.5}
+    - name: stick figure final sprites_18
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 47
+        width: 298
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.55777, y: 107.21929}
+        - {x: 7.55777, y: 69.21929}
+        - {x: -6.44223, y: 54.21929}
+        - {x: -89.44223, y: 48.21929}
+        - {x: -89.44223, y: -106.78071}
+        - {x: 33.55777, y: -106.78071}
+        - {x: 89.55777, y: 12.219292}
+        - {x: 89.55777, y: 96.21929}
+        - {x: 79.55777, y: 107.21929}
+    - name: stick figure final sprites_19
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 57
+        width: 350
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106.299805, y: 43.723396}
+        - {x: 106.299805, y: 82.7234}
+        - {x: 100.299805, y: 88.7234}
+        - {x: 56.299805, y: 88.7234}
+        - {x: 33.299805, y: 68.7234}
+        - {x: 31.299805, y: 62.723396}
+        - {x: 39.299805, y: 55.723396}
+        - {x: 40.299805, y: 36.723396}
+        - {x: -22.700195, y: 71.7234}
+        - {x: -104.700195, y: 32.723396}
+        - {x: -104.700195, y: -56.276604}
+        - {x: -89.700195, y: -88.2766}
+        - {x: 12.299805, y: -88.2766}
+        - {x: 106.299805, y: -13.276604}
+        - {x: 106.299805, y: 36.723396}
+        - {x: 101.299805, y: 39.723396}
+        - {x: 98.299805, y: 40.723396}
+        - {x: 105.299805, y: 41.723396}
+    - name: stick figure final sprites_20
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 120
+        width: 390
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -105.71838, y: 64.049255}
+        - {x: -116.71838, y: 47.049255}
+        - {x: -116.71838, y: -59.950745}
+        - {x: -113.71838, y: -63.950745}
+        - {x: 47.281616, y: -63.950745}
+        - {x: 118.28162, y: -50.950745}
+        - {x: 118.28162, y: 47.049255}
+        - {x: 55.281616, y: 64.049255}
+    - name: stick figure final sprites_21
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 63
+        width: 343
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.6815186, y: 94.32586}
+        - {x: 4.6815186, y: 95.32586}
+        - {x: -75.31848, y: 95.32586}
+        - {x: -103.31848, y: 67.32586}
+        - {x: -103.31848, y: -21.67414}
+        - {x: -10.318481, y: -93.67414}
+        - {x: 101.68152, y: -93.67414}
+        - {x: 103.68152, y: -92.67414}
+        - {x: 103.68152, y: -47.67414}
+        - {x: 63.68152, y: -11.674141}
+    - name: stick figure final sprites_22
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 60
+        width: 211
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.47998, y: 118.02463}
+        - {x: -63.47998, y: -117.97537}
+        - {x: 63.52002, y: -117.97537}
+        - {x: 63.52002, y: 114.02463}
+        - {x: 61.52002, y: 118.02463}
+    - name: stick figure final sprites_23
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 50
+        width: 291
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87.65747, y: -53.479477}
+        - {x: 87.65747, y: 108.52052}
+        - {x: -17.34253, y: 108.52052}
+        - {x: -46.34253, y: 78.52052}
+        - {x: -87.34253, y: -33.479477}
+        - {x: -87.34253, y: -91.47948}
+        - {x: -64.34253, y: -108.47948}
+        - {x: -47.34253, y: -108.47948}
+        - {x: -42.34253, y: -92.47948}
+        - {x: -10.342529, y: -69.47948}
+        - {x: -8.342529, y: -67.47948}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
