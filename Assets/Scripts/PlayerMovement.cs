@@ -7,11 +7,13 @@ public class PlayerMovement : MonoBehaviour {
     public float jumpForce;
     public bool isGround;
     public bool jumped;
+    public bool up;
     public LayerMask whatIsGround;
 
     private Rigidbody2D playerRigidBody;
     private Collider2D myCollider;
     private Animator anim;
+
 
 	// Use this for initialization
 	void Start () {
@@ -23,7 +25,10 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         isGround = Physics2D.IsTouchingLayers(myCollider, whatIsGround);
+        up = playerRigidBody.velocity.y > 0;
+
         anim.SetBool("isGround", isGround);
+        anim.SetBool("up", up);
         if (jumped && isGround)
         {
             jumped = false;
