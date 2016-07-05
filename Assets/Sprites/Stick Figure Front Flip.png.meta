@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: de5cdea8d52736f4e84ac5c4979f2c49
+timeCreated: 1467676887
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Stick Figure Front Flip_0
+    21300002: Stick Figure Front Flip_1
+    21300004: Stick Figure Front Flip_2
+    21300006: Stick Figure Front Flip_3
+    21300008: Stick Figure Front Flip_4
+    21300010: Stick Figure Front Flip_5
+    21300012: Stick Figure Front Flip_6
+    21300014: Stick Figure Front Flip_7
+    21300016: Stick Figure Front Flip_8
+    21300018: Stick Figure Front Flip_9
+    21300020: Stick Figure Front Flip_10
+    21300022: Stick Figure Front Flip_11
+    21300024: Stick Figure Front Flip_12
+    21300026: Stick Figure Front Flip_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Stick Figure Front Flip_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 552
+        width: 277
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 97, y: 138.78452}
+        - {x: 93, y: 140.78452}
+        - {x: -58, y: 140.78452}
+        - {x: -97, y: -21.215485}
+        - {x: -97, y: -88.215485}
+        - {x: -58, y: -140.21548}
+        - {x: -42, y: -140.21548}
+        - {x: -9, y: -125.215485}
+        - {x: -2, y: -112.215485}
+        - {x: 93, y: -15.215485}
+        - {x: 97, y: 5.7845154}
+    - name: Stick Figure Front Flip_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 469
+        width: 310
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109.92468, y: 170.70187}
+        - {x: -24.075317, y: 170.70187}
+        - {x: -45.075317, y: 119.70187}
+        - {x: -41.075317, y: 67.70187}
+        - {x: -108.07532, y: -112.29813}
+        - {x: -108.07532, y: -156.29813}
+        - {x: -59.075317, y: -170.29813}
+        - {x: -7.0753174, y: -170.29813}
+        - {x: 25.924683, y: -97.29813}
+        - {x: 109.92468, y: 30.701874}
+    - name: Stick Figure Front Flip_2
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 483
+        width: 385
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.549164, y: 136.99893}
+        - {x: -41.450836, y: 113.99893}
+        - {x: -134.45084, y: -51.00107}
+        - {x: -134.45084, y: -76.00107}
+        - {x: -80.450836, y: -135.00107}
+        - {x: -63.450836, y: -135.00107}
+        - {x: -55.450836, y: -131.00107}
+        - {x: 107.549164, y: -40.00107}
+        - {x: 135.54916, y: 15.998932}
+        - {x: 135.54916, y: 136.99893}
+    - name: Stick Figure Front Flip_3
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 534
+        width: 428
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 151.45605, y: -22.811737}
+        - {x: 151.45605, y: 81.18826}
+        - {x: 119.456055, y: 101.18826}
+        - {x: -17.543945, y: 101.18826}
+        - {x: -149.54395, y: -38.811737}
+        - {x: -149.54395, y: -79.81174}
+        - {x: -83.543945, y: -99.81174}
+        - {x: -71.543945, y: -99.81174}
+        - {x: -19.543945, y: -39.811737}
+        - {x: -22.543945, y: -33.811737}
+        - {x: 87.456055, y: -63.811737}
+    - name: Stick Figure Front Flip_4
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 530
+        width: 393
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120.150635, y: 75.8891}
+        - {x: -137.15063, y: 30.8891}
+        - {x: -137.15063, y: -21.1109}
+        - {x: -130.15063, y: -29.1109}
+        - {x: -68.150635, y: -53.1109}
+        - {x: 4.849365, y: -74.1109}
+        - {x: 115.849365, y: -74.1109}
+        - {x: 138.84937, y: -47.1109}
+        - {x: 138.84937, y: 45.8891}
+        - {x: 111.849365, y: 75.8891}
+    - name: Stick Figure Front Flip_5
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 483
+        width: 374
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.548218, y: 95.99893}
+        - {x: -85.54822, y: 95.99893}
+        - {x: -93.54822, y: 92.99893}
+        - {x: -112.54822, y: 85.99893}
+        - {x: -130.54822, y: 63.99893}
+        - {x: -130.54822, y: 43.99893}
+        - {x: -129.54822, y: 42.99893}
+        - {x: -114.54822, y: 39.99893}
+        - {x: -102.54822, y: 37.99893}
+        - {x: -76.54822, y: 1.9989319}
+        - {x: -73.54822, y: 0.9989319}
+        - {x: -26.548218, y: -94.00107}
+        - {x: 132.45178, y: -94.00107}
+        - {x: 132.45178, y: 13.998932}
+        - {x: 119.45178, y: 55.99893}
+    - name: Stick Figure Front Flip_6
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 473
+        width: 308
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -92.641235, y: 119.00104}
+        - {x: -107.641235, y: 103.00104}
+        - {x: -107.641235, y: 68.00104}
+        - {x: -76.641235, y: -11.998962}
+        - {x: -73.641235, y: -27.998962}
+        - {x: -20.641235, y: -118.99896}
+        - {x: 87.358765, y: -118.99896}
+        - {x: 108.358765, y: -81.99896}
+        - {x: 108.358765, y: 8.001038}
+        - {x: -16.641235, y: 119.00104}
+    - name: Stick Figure Front Flip_7
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 212
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.79812, y: 104.5}
+        - {x: 58.79812, y: 113.5}
+        - {x: 54.79812, y: 136.5}
+        - {x: 52.79812, y: 137.5}
+        - {x: -52.20188, y: 137.5}
+        - {x: -74.20188, y: 71.5}
+        - {x: -74.20188, y: -132.5}
+        - {x: -60.20188, y: -137.5}
+        - {x: 74.79812, y: -137.5}
+        - {x: 74.79812, y: 108.5}
+        - {x: 58.79812, y: 107.5}
+    - name: Stick Figure Front Flip_8
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 47
+        width: 297
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.01987, y: 126.39017}
+        - {x: 53.019867, y: 126.39017}
+        - {x: -6.980133, y: 76.39017}
+        - {x: -54.980133, y: 40.390167}
+        - {x: -103.98013, y: -2.6098328}
+        - {x: -103.98013, y: -114.60983}
+        - {x: -99.98013, y: -124.60983}
+        - {x: 33.019867, y: -124.60983}
+        - {x: 104.01987, y: 51.390167}
+        - {x: 104.01987, y: 85.39017}
+        - {x: 99.01987, y: 103.39017}
+    - name: Stick Figure Front Flip_9
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 57
+        width: 349
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98.84726, y: 104.88808}
+        - {x: 93.84726, y: 100.88808}
+        - {x: 37.84726, y: 79.88808}
+        - {x: 33.84726, y: 73.88808}
+        - {x: 48.84726, y: 36.888077}
+        - {x: -38.15274, y: 58.888077}
+        - {x: -108.15274, y: 46.888077}
+        - {x: -122.15274, y: 22.888077}
+        - {x: -122.15274, y: -78.11192}
+        - {x: -89.15274, y: -103.11192}
+        - {x: 19.84726, y: -103.11192}
+        - {x: 123.84726, y: 4.888077}
+        - {x: 123.84726, y: 85.88808}
+        - {x: 109.84726, y: 104.88808}
+    - name: Stick Figure Front Flip_10
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 120
+        width: 390
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 137.85455, y: 43.47489}
+        - {x: 93.85455, y: 76.47489}
+        - {x: -114.14545, y: 76.47489}
+        - {x: -136.14545, y: 62.47489}
+        - {x: -136.14545, y: -49.52511}
+        - {x: -98.14545, y: -74.52511}
+        - {x: 10.854553, y: -74.52511}
+        - {x: 109.85455, y: -40.52511}
+        - {x: 116.85455, y: -23.525108}
+        - {x: 115.85455, y: -20.525108}
+        - {x: 137.85455, y: -20.525108}
+    - name: Stick Figure Front Flip_11
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 63
+        width: 343
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.15271, y: 81.08682}
+        - {x: 10.15271, y: 110.08682}
+        - {x: -87.84729, y: 110.08682}
+        - {x: -119.84729, y: 101.08682}
+        - {x: -119.84729, y: -25.913177}
+        - {x: 14.15271, y: -109.91318}
+        - {x: 101.15271, y: -109.91318}
+        - {x: 121.15271, y: -96.91318}
+        - {x: 121.15271, y: -48.913177}
+        - {x: 69.15271, y: 24.086823}
+    - name: Stick Figure Front Flip_12
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 60
+        width: 213
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.531372, y: 139.48744}
+        - {x: -38.468628, y: 139.48744}
+        - {x: -74.46863, y: 107.48744}
+        - {x: -74.46863, y: -119.51256}
+        - {x: -41.468628, y: -137.51256}
+        - {x: 37.531372, y: -137.51256}
+        - {x: 39.531372, y: -133.51256}
+        - {x: 75.53137, y: -70.51256}
+        - {x: 75.53137, y: 132.48744}
+    - name: Stick Figure Front Flip_13
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 50
+        width: 291
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.461304, y: 128.48953}
+        - {x: -1.5386963, y: 128.48953}
+        - {x: -42.538696, y: 109.48954}
+        - {x: -101.5387, y: -35.51046}
+        - {x: -101.5387, y: -85.51046}
+        - {x: -84.5387, y: -120.51046}
+        - {x: -76.5387, y: -126.51046}
+        - {x: -12.538696, y: -126.51046}
+        - {x: 61.461304, y: -73.51046}
+        - {x: 103.4613, y: 0.4895401}
+        - {x: 103.4613, y: 97.48954}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
