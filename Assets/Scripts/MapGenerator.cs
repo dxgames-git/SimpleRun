@@ -8,6 +8,7 @@ public class MapGenerator: MonoBehaviour {
     public float distanceBetween;
 
     private float platformWidth;
+    private ObstaclesGenerator theObstaclesGenerator;
 
 	// Use this for initialization
 	void Start () {
@@ -22,6 +23,7 @@ public class MapGenerator: MonoBehaviour {
             transform.position = new Vector3(transform.position.x + platformWidth * 1.280459f + distanceBetween, transform.position.y, transform.position.z);
 
             Instantiate(thePlatform, transform.position, transform.rotation);
+            theObstaclesGenerator.generate(new Vector3(transform.position.x, transform.position.y, transform.position.z));
         }
 	}
 }
