@@ -11,12 +11,18 @@ public class MapGenerator: MonoBehaviour {
     private float platformWidth;
 
     //Obstacle Generation Fields
-    public GameObject obstacle;
+    public GameObject pencil;
+    public GameObject postIt;
+    public GameObject ruler;
     public float minDistanceBetweenObstacles;
+    private GameObject[] obstacleChooser;
 
     // Use this for initialization
     void Start () {
         platformWidth = thePlatform.GetComponent<BoxCollider2D>().size.x;
+        obstacleChooser[0] = pencil;
+        obstacleChooser[1] = postIt;
+        obstacleChooser[2] = ruler;
     }
 	
 	// Update is called once per frame
@@ -33,15 +39,16 @@ public class MapGenerator: MonoBehaviour {
 
     public void generate(Vector3 position)
     {
-        float numObstacles;
-        numObstacles = (float)(3f * Random.value + 1f);
+        int num1 = (int)(2 * Random.value + 1);
+        int num2 = (int)(2 * Random.value + 1);
+        while (num1 != num2)
+        {
+            num2 = (int)(2 * Random.value + 1);
+        }
         Vector3 distance = position;
-
-        /*for (int i = 0; i < numObstacles; i++)
-        {*/
-            Instantiate(obstacle, distance, transform.rotation);
-            distance = new Vector3(distance.x + minDistanceBetweenObstacles, distance.y, distance.z);
-        //}
+        Instantiate(obstacleChooser[num1], distance, transform.rotation);
+        distance = new Vector3(distance.x + minDistanceBetweenObstacles, distance.y, distance.z);
+        Instantiate(obstacleChooser[num2], distance, transform.rotation);
     }
 
 }
