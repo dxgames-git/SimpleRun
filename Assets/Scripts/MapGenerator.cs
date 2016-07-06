@@ -20,6 +20,7 @@ public class MapGenerator: MonoBehaviour {
     // Use this for initialization
     void Start () {
         platformWidth = thePlatform.GetComponent<BoxCollider2D>().size.x;
+        obstacleChooser = new GameObject[3];
         obstacleChooser[0] = pencil;
         obstacleChooser[1] = postIt;
         obstacleChooser[2] = ruler;
@@ -45,7 +46,7 @@ public class MapGenerator: MonoBehaviour {
         {
             num2 = (int)(2 * Random.value + 1);
         }
-        Vector3 distance = position;
+        Vector3 distance = new Vector3(position.x, position.y - 5, position.z);
         Instantiate(obstacleChooser[num1], distance, transform.rotation);
         distance = new Vector3(distance.x + minDistanceBetweenObstacles, distance.y, distance.z);
         Instantiate(obstacleChooser[num2], distance, transform.rotation);
