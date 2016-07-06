@@ -14,7 +14,9 @@ public class MapGenerator: MonoBehaviour {
     public GameObject pencil;
     public GameObject postIt;
     public GameObject ruler;
+
     public float minDistanceBetweenObstacles;
+
     private GameObject[] obstacleChooser;
 
     // Use this for initialization
@@ -40,13 +42,13 @@ public class MapGenerator: MonoBehaviour {
 
     public void generate(Vector3 position)
     {
-        int num1 = (int)(2 * Random.value + 1);
-        int num2 = (int)(2 * Random.value + 1);
-        while (num1 != num2)
+        int num1 = (int)(3 * Random.value);
+        int num2 = (int)(3 * Random.value);
+        while (num1 == num2)
         {
-            num2 = (int)(2 * Random.value + 1);
+            num2 = (int)(3 * Random.value);
         }
-        Vector3 distance = new Vector3(position.x, position.y - 5, position.z);
+        Vector3 distance = new Vector3(position.x, position.y - 5, -1);
         Instantiate(obstacleChooser[num1], distance, transform.rotation);
         distance = new Vector3(distance.x + minDistanceBetweenObstacles, distance.y, distance.z);
         Instantiate(obstacleChooser[num2], distance, transform.rotation);
