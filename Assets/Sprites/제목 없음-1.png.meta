@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: e907f541a74995645870001b39cce65c
+timeCreated: 1467855576
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "\uC81C\uBAA9 \uC5C6\uC74C-1_0"
+    21300002: "\uC81C\uBAA9 \uC5C6\uC74C-1_1"
+    21300004: "\uC81C\uBAA9 \uC5C6\uC74C-1_2"
+    21300006: "\uC81C\uBAA9 \uC5C6\uC74C-1_3"
+    21300008: "\uC81C\uBAA9 \uC5C6\uC74C-1_4"
+    21300010: "\uC81C\uBAA9 \uC5C6\uC74C-1_5"
+    21300012: "\uC81C\uBAA9 \uC5C6\uC74C-1_6"
+    21300014: "\uC81C\uBAA9 \uC5C6\uC74C-1_7"
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: "\uC81C\uBAA9 \uC5C6\uC74C-1_0"
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 529
+        width: 481
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -208.81287, y: 208.67569}
+        - {x: -208.81287, y: -207.32431}
+        - {x: 209.18713, y: -207.32431}
+        - {x: 209.18713, y: 208.67569}
+    - name: "\uC81C\uBAA9 \uC5C6\uC74C-1_1"
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 557
+        width: 346
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -150.26636, y: 190.95343}
+        - {x: -150.26636, y: -189.04657}
+        - {x: 150.73364, y: -189.04657}
+        - {x: 150.73364, y: 190.95343}
+    - name: "\uC81C\uBAA9 \uC5C6\uC74C-1_2"
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 580
+        width: 346
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -150.07068, y: 186.89584}
+        - {x: -150.07068, y: -185.10416}
+        - {x: 150.92932, y: -185.10416}
+        - {x: 150.92932, y: 186.89584}
+    - name: "\uC81C\uBAA9 \uC5C6\uC74C-1_3"
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 21
+        width: 346
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -150.07579, y: 190.2083}
+        - {x: -150.07579, y: -189.7917}
+        - {x: 150.92421, y: -189.7917}
+        - {x: 150.92421, y: 190.2083}
+    - name: "\uC81C\uBAA9 \uC5C6\uC74C-1_4"
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 16
+        width: 346
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -150.44159, y: 190.87299}
+        - {x: -150.44159, y: -189.12701}
+        - {x: 150.55841, y: -189.12701}
+        - {x: 150.55841, y: 190.87299}
+    - name: "\uC81C\uBAA9 \uC5C6\uC74C-1_5"
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 21
+        width: 346
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -150.40857, y: 190.2083}
+        - {x: -150.40857, y: -189.7917}
+        - {x: 150.59143, y: -189.7917}
+        - {x: 150.59143, y: 190.2083}
+    - name: "\uC81C\uBAA9 \uC5C6\uC74C-1_6"
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 21
+        width: 346
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -150.46277, y: 190.2083}
+        - {x: -150.46277, y: -189.7917}
+        - {x: 150.53723, y: -189.7917}
+        - {x: 150.53723, y: 190.2083}
+    - name: "\uC81C\uBAA9 \uC5C6\uC74C-1_7"
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 17
+        width: 346
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -149.84631, y: 190.74005}
+        - {x: -149.84631, y: -189.25995}
+        - {x: 151.15369, y: -189.25995}
+        - {x: 151.15369, y: 190.74005}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
