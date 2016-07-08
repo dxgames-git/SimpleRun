@@ -9,11 +9,13 @@ public class EraserMovement : MonoBehaviour {
 
     private GameObject thePlayer;
     private float timeCounter;
+    private Rigidbody2D eraserRigidBody;
 
     // Use this for initialization
     void Start () {
         timeCounter = 0f;
         thePlayer = GameObject.FindGameObjectWithTag("Player");
+        eraserRigidBody = GetComponent<Rigidbody2D>();
     }
 	
 	// Update is called once per frame
@@ -23,6 +25,7 @@ public class EraserMovement : MonoBehaviour {
         {
             timeCounter -= 2f * Mathf.PI;
         }
-        transform.position = new Vector3(thePlayer.transform.position.x - distanceToPlayer, Mathf.Sin(timeCounter * eraserSpeed) * eraserRange * Time.deltaTime, thePlayer.transform.position.z);
+        eraserRigidBody.velocity = new Vector2(distanceToPlayer, Mathf.Sin(timeCounter * eraserSpeed) * eraserRange * Time.deltaTime);
+       // transform.position = new Vector3(thePlayer.transform.position.x - distanceToPlayer, Mathf.Sin(timeCounter * eraserSpeed) * eraserRange * Time.deltaTime, thePlayer.transform.position.z);
 	}
 }

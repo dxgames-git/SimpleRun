@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour {
     public bool jumped;
     public bool up;
     public LayerMask whatIsGround;
+    public GameObject eraser;
 
     private Rigidbody2D playerRigidBody;
     private Collider2D myCollider;
@@ -49,5 +50,9 @@ public class PlayerMovement : MonoBehaviour {
                 anim.SetBool("jumped", jumped);
             }
         }
-	}
+        if (eraser.transform.position.x == transform.position.x) {
+            Application.LoadLevel("Dead Scene");
+        }
+    }
+
 }
