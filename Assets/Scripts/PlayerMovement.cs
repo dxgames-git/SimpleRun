@@ -50,9 +50,9 @@ public class PlayerMovement : MonoBehaviour {
                 anim.SetBool("jumped", jumped);
             }
         }
-        if (eraser.transform.position.x == transform.position.x) {
-            Application.LoadLevel("Dead Scene");
-        }
+      //  OnTriggerEnter2D(eraser.GetComponent<Collider2D>());
     }
-
+    /*void OnTriggerEnter2D(Collider2D other) {
+        Application.LoadLevel("Dead Scene");
+    }*/
 }
