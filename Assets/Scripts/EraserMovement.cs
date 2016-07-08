@@ -28,4 +28,14 @@ public class EraserMovement : MonoBehaviour {
         eraserRigidBody.velocity = new Vector2(distanceToPlayer, Mathf.Sin(timeCounter * eraserSpeed) * eraserRange * Time.deltaTime);
        // transform.position = new Vector3(thePlayer.transform.position.x - distanceToPlayer, Mathf.Sin(timeCounter * eraserSpeed) * eraserRange * Time.deltaTime, thePlayer.transform.position.z);
 	}
+
+    void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (coll.gameObject.tag == "Player")
+        {
+            Destroy(coll.gameObject);
+            Destroy(gameObject);
+        }
+    }
+
 }
