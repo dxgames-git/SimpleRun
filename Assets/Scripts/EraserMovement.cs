@@ -23,13 +23,15 @@ public class EraserMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (transform.position.y > eraserStartPoint.y + distanceFromCenter && upOrDown) {
-            eraserRigidBody.velocity = new Vector2(speed, -1 * upDownSpeed);
-            upOrDown = false;
-        }
-        if (transform.position.y < eraserStartPoint.y - distanceFromCenter && upOrDown == false) {
-            eraserRigidBody.velocity = new Vector2(speed, -1 * upDownSpeed);
-            upOrDown = true;
-        }
-	}
+        /* if (transform.position.y > eraserStartPoint.y + distanceFromCenter && upOrDown) {
+             eraserRigidBody.velocity = new Vector2(speed, -1 * upDownSpeed);
+             upOrDown = false;
+         }
+         if (transform.position.y < eraserStartPoint.y - distanceFromCenter && upOrDown == false) {
+             eraserRigidBody.velocity = new Vector2(speed, -1 * upDownSpeed);
+             upOrDown = true;
+         }*/
+        //transform.position.y = Mathf.Sin(Time.deltaTime);
+        eraserRigidBody.velocity = new Vector2(speed, Mathf.Sin(Time.deltaTime));
+    }
 }
