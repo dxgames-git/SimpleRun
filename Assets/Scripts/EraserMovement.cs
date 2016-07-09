@@ -36,12 +36,10 @@ public class EraserMovement : MonoBehaviour {
        // OnTriggerStay2D(thePlayer.GetComponent<Collider2D>());
        // transform.position = new Vector3(thePlayer.transform.position.x - distanceToPlayer, Mathf.Sin(timeCounter * eraserSpeed) * eraserRange * Time.deltaTime, thePlayer.transform.position.z);
 	}
-<<<<<<< HEAD
-    void OnTriggerStay2D(Collider2D other)
+  /*  void OnTriggerStay2D(Collider2D other)
     {
         count++;
-    }
-=======
+    }*/
 
     void OnTriggerEnter2D(Collider2D coll)
     {
@@ -51,6 +49,4 @@ public class EraserMovement : MonoBehaviour {
             Destroy(gameObject);
         }
     }
-
->>>>>>> origin/master
 }
