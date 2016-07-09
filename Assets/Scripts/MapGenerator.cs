@@ -31,7 +31,6 @@ public class MapGenerator: MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        Debug.Log(platformWidth);
         if (transform.position.x < generationPoint.position.x) {
             transform.position = new Vector3(transform.position.x + platformWidth * 1.280459f + distanceBetween, transform.position.y, transform.position.z);
 
