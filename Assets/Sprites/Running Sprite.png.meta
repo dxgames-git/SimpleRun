@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 722e59b666a14b2489c0fed80d294117
+timeCreated: 1468101437
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Running Sprite_0
+    21300002: Running Sprite_1
+    21300004: Running Sprite_2
+    21300006: Running Sprite_3
+    21300008: Running Sprite_4
+    21300010: Running Sprite_5
+    21300012: Running Sprite_6
+    21300014: Running Sprite_7
+    21300016: Running Sprite_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Running Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 620
+        width: 343
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -110.073975, y: 116.377686}
+        - {x: -153.07397, y: 9.377686}
+        - {x: -115.073975, y: 7.3776855}
+        - {x: -159.07397, y: -45.622314}
+        - {x: -159.07397, y: -73.622314}
+        - {x: -107.073975, y: -132.62231}
+        - {x: -77.073975, y: -124.622314}
+        - {x: -65.073975, y: -116.622314}
+        - {x: -52.073975, y: -106.622314}
+        - {x: 48.926025, y: -203.62231}
+        - {x: 160.92603, y: -203.62231}
+        - {x: 160.92603, y: 204.37769}
+        - {x: -26.073975, y: 204.37769}
+        - {x: -31.073975, y: 201.37769}
+    - name: Running Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 599
+        width: 376
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 175.45483, y: 63.855225}
+        - {x: 175.45483, y: 152.85522}
+        - {x: 137.45483, y: 214.85522}
+        - {x: 27.454834, y: 214.85522}
+        - {x: -46.545166, y: 172.85522}
+        - {x: -81.545166, y: -31.144775}
+        - {x: -69.545166, y: -43.144775}
+        - {x: -56.545166, y: -40.144775}
+        - {x: -51.545166, y: -34.144775}
+        - {x: -71.545166, y: -103.144775}
+        - {x: -155.54517, y: -90.144775}
+        - {x: -174.54517, y: -113.144775}
+        - {x: -174.54517, y: -142.14478}
+        - {x: 22.454834, y: -213.14478}
+        - {x: 175.45483, y: -213.14478}
+        - {x: 175.45483, y: 14.855225}
+        - {x: 157.45483, y: 21.855225}
+    - name: Running Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 302
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 140.5, y: 50.57785}
+        - {x: 140.5, y: 200.57785}
+        - {x: 137.5, y: 216.57785}
+        - {x: 2.5, y: 216.57785}
+        - {x: -65.5, y: 47.57785}
+        - {x: -140.5, y: -168.42215}
+        - {x: -140.5, y: -204.42215}
+        - {x: -133.5, y: -215.42215}
+        - {x: 77.5, y: -215.42215}
+        - {x: 71.5, y: -202.42215}
+        - {x: 134.5, y: -56.42215}
+        - {x: 117.5, y: -25.42215}
+    - name: Running Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 0
+        width: 243
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 114.40604, y: 207.5}
+        - {x: 83.40604, y: 218.5}
+        - {x: -4.5939636, y: 218.5}
+        - {x: -44.593964, y: 183.5}
+        - {x: -112.59396, y: -178.5}
+        - {x: -112.59396, y: -216.5}
+        - {x: -108.59396, y: -218.5}
+        - {x: 10.406036, y: -218.5}
+        - {x: 61.406036, y: -136.5}
+        - {x: 75.40604, y: -52.5}
+        - {x: 114.40604, y: 71.5}
+    - name: Running Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 11
+        width: 249
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 116.38544, y: 176.22606}
+        - {x: 106.38544, y: 204.22606}
+        - {x: -9.614563, y: 204.22606}
+        - {x: -48.614563, y: 147.22606}
+        - {x: -55.614563, y: 28.226059}
+        - {x: -115.61456, y: -165.77394}
+        - {x: -115.61456, y: -203.77394}
+        - {x: -29.614563, y: -203.77394}
+        - {x: 62.385437, y: -61.77394}
+        - {x: -4.614563, y: 11.226059}
+        - {x: 116.38544, y: 86.22606}
+    - name: Running Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 4
+        width: 305
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.30029, y: -19.781433}
+        - {x: 143.3003, y: 92.21857}
+        - {x: 143.3003, y: 183.21857}
+        - {x: 126.30029, y: 208.21857}
+        - {x: 28.300293, y: 208.21857}
+        - {x: -32.699707, y: 171.21857}
+        - {x: -3.699707, y: 92.21857}
+        - {x: -85.69971, y: 31.218567}
+        - {x: -141.6997, y: -166.78143}
+        - {x: -141.6997, y: -198.78143}
+        - {x: -133.6997, y: -206.78143}
+        - {x: 10.300293, y: -206.78143}
+        - {x: 18.300293, y: -98.78143}
+        - {x: 106.30029, y: -42.781433}
+      - - {x: 139.3003, y: -193.78143}
+        - {x: 139.3003, y: -194.78143}
+        - {x: 142.3003, y: -197.78143}
+        - {x: 143.3003, y: -197.78143}
+        - {x: 143.3003, y: -190.78143}
+        - {x: 142.3003, y: -190.78143}
+    - name: Running Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 34
+        width: 372
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 153.07153, y: 197.1078}
+        - {x: 26.071533, y: 197.1078}
+        - {x: -55.928467, y: 104.1078}
+        - {x: -139.92847, y: -71.8922}
+        - {x: -172.92847, y: -116.8922}
+        - {x: -172.92847, y: -159.8922}
+        - {x: -171.92847, y: -161.8922}
+        - {x: -73.92847, y: -156.8922}
+        - {x: -28.928467, y: -130.8922}
+        - {x: -10.928467, y: -97.8922}
+        - {x: 100.07153, y: -189.8922}
+        - {x: 109.07153, y: -195.8922}
+        - {x: 134.07153, y: -195.8922}
+        - {x: 163.07153, y: -180.8922}
+        - {x: 174.07153, y: -157.8922}
+        - {x: 174.07153, y: 147.1078}
+    - name: Running Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 27
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Running Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 14
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
