@@ -16,8 +16,10 @@ public class MapGenerator: MonoBehaviour {
     public GameObject ruler;
 
     public float minDistanceBetweenObstacles;
+    public float barNumber;
 
     private GameObject[] obstacleChooser;
+    private GameObject coin;
 
     // Use this for initialization
     void Start () {
@@ -26,6 +28,7 @@ public class MapGenerator: MonoBehaviour {
         obstacleChooser[0] = pencil;
         obstacleChooser[1] = postIt;
         obstacleChooser[2] = ruler;
+        coin = GameObject.FindGameObjectWithTag("coin");
     }
 	
 	// Update is called once per frame
@@ -52,9 +55,16 @@ public class MapGenerator: MonoBehaviour {
         }
         float randomRotation = 90 * Random.value;
         Vector3 distance = new Vector3(position.x + 20 * Random.value, position.y - 5, -1);
-        Instantiate(obstacleChooser[num1], distance, Quaternion.Euler(90 * Random.value, 90 * Random.value, 0));
-        distance = new Vector3(distance.x + minDistanceBetweenObstacles, distance.y, distance.z);
-        Instantiate(obstacleChooser[num2], distance, Quaternion.Euler(90 * Random.value, 90 * Random.value, 0));
+        if (Random.Range(0f, 100f) < barNumber)
+        {
+            Instantiate(obstacleChooser[num1], distance, Quaternion.Euler(90 * Random.value, 90 * Random.value, 0));
+            distance = new Vector3(distance.x + minDistanceBetweenObstacles, distance.y, distance.z);
+            Instantiate(obstacleChooser[num2], distance, Quaternion.Euler(90 * Random.value, 90 * Random.value, 0));
+        }
     }
-
+    void coinGenerator(Vector3 position) {
+        if (Random.Range(0f, 100f) > barNumber) {
+            //Instantiate(coin, position, 0);
+        }
+    }
 }
