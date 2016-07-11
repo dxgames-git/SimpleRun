@@ -14,12 +14,13 @@ public class MapGenerator: MonoBehaviour {
     public GameObject pencil;
     public GameObject postIt;
     public GameObject ruler;
+    public GameObject coin;
 
     public float minDistanceBetweenObstacles;
     public float barNumber;
 
     private GameObject[] obstacleChooser;
-    private GameObject coin;
+    //private GameObject coin;
 
     // Use this for initialization
     void Start () {
@@ -28,7 +29,7 @@ public class MapGenerator: MonoBehaviour {
         obstacleChooser[0] = pencil;
         obstacleChooser[1] = postIt;
         obstacleChooser[2] = ruler;
-        coin = GameObject.FindGameObjectWithTag("coin");
+        //coin = GameObject.FindGameObjectWithTag("coin");
     }
 	
 	// Update is called once per frame
@@ -42,6 +43,7 @@ public class MapGenerator: MonoBehaviour {
             //generating different angles
 
             generate(new Vector3(transform.position.x, transform.position.y, transform.position.z));
+            coinGenerator(new Vector3(transform.position.x, transform.position.y, -1));
         }
 	}
 
@@ -64,7 +66,7 @@ public class MapGenerator: MonoBehaviour {
     }
     void coinGenerator(Vector3 position) {
         if (Random.Range(0f, 100f) > barNumber) {
-            //Instantiate(coin, position, 0);
+            Instantiate(coin, position, coin.transform.rotation);
         }
     }
 }
