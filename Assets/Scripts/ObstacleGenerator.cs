@@ -28,7 +28,7 @@ public class ObstacleGenerator : MonoBehaviour {
 	void Update () {
         if (transform.position.x > pos)
         {
-            int chooser = (int)(Random.value * (obstacleChooser.Length - 1));
+            int chooser = (int)(Random.value * (obstacleChooser.Length));
             float distance = (Random.value * (maxDistance - minDistance)) + minDistance;
             Instantiate(obstacleChooser[chooser], new Vector3 (pos + distance, -5f, transform.position.z), transform.rotation);
             pos = pos + distance;
