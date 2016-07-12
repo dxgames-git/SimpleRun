@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PowerUp : MonoBehaviour {
 
-    private float duration;
+    public float duration;
 
     private PlayerMovement player;
     private EraserMovement eraser;
@@ -14,7 +14,6 @@ public class PowerUp : MonoBehaviour {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
         eraser = GameObject.FindGameObjectWithTag("Eraser").GetComponent<EraserMovement>();
         didSpeedUp = false;
-        duration = 10f;
 	}
 	
 	// Update is called once per frame
