@@ -42,7 +42,7 @@ public class MapGenerator: MonoBehaviour {
 
             //generating different angles
 
-            generate(new Vector3(transform.position.x, transform.position.y, transform.position.z));
+            //generate(new Vector3(transform.position.x, transform.position.y, transform.position.z));
             coinGenerator(new Vector3(transform.position.x, transform.position.y, -1));
         }
 	}
