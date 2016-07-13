@@ -11,6 +11,11 @@ public class PlayerMovement : MonoBehaviour {
     public LayerMask whatIsGround;
     public GameObject eraser;
 
+    //PowerUp
+    public bool didSpeedUp;
+    public float duration;
+    private EraserMovement eraserMove;
+
     private Rigidbody2D playerRigidBody;
     private Collider2D myCollider;
     private Animator anim;
@@ -21,6 +26,8 @@ public class PlayerMovement : MonoBehaviour {
         playerRigidBody = GetComponent<Rigidbody2D>();
         myCollider = GetComponent<EdgeCollider2D>();
         anim = gameObject.GetComponent<Animator>();
+        eraserMove = GameObject.FindGameObjectWithTag("Eraser").GetComponent<EraserMovement>();
+        didSpeedUp = false;
     }
 	
 	// Update is called once per frame
@@ -49,6 +56,11 @@ public class PlayerMovement : MonoBehaviour {
                 jumped = true;
                 anim.SetBool("jumped", jumped);
             }
+        }
+        if (didSpeedUp && Time.deltaTime > duration)
+        {
+            speed = 6;
+            eraserMove.distanceToPlayer = 6;
         }
     }
 }

@@ -9,17 +9,21 @@ public class ObstacleGenerator : MonoBehaviour {
     public GameObject pencil;
     public GameObject postIt;
     public GameObject ruler;
+    public GameObject speedUp;
 
+    //private GameObject speedUp;
     private GameObject[] obstacleChooser;
     private float pos;
 
     // Use this for initialization
     void Start () {
 
-        obstacleChooser = new GameObject[3];
+        //speedUp = GameObject.FindGameObjectWithTag("powerUp");
+        obstacleChooser = new GameObject[4];
         obstacleChooser[0] = pencil;
         obstacleChooser[1] = postIt;
         obstacleChooser[2] = ruler;
+        obstacleChooser[3] = speedUp;
 
         pos = 7f;
     }
@@ -30,7 +34,7 @@ public class ObstacleGenerator : MonoBehaviour {
         {
             int chooser = (int)(Random.value * (obstacleChooser.Length));
             float distance = (Random.value * (maxDistance - minDistance)) + minDistance;
-            Instantiate(obstacleChooser[chooser], new Vector3 (pos + distance, -5f, transform.position.z), transform.rotation);
+            Instantiate(obstacleChooser[chooser], new Vector3 (pos + distance, obstacleChooser[chooser].transform.position.y - 3f, transform.position.z), transform.rotation);
             pos = pos + distance;
         }
 
