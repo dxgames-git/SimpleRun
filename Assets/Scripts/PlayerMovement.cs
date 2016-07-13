@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour {
     public bool didSpeedUp;
     public float duration;
     private EraserMovement eraserMove;
+    private float powerupElapsed;
 
     private Rigidbody2D playerRigidBody;
     private Collider2D myCollider;
@@ -28,6 +29,7 @@ public class PlayerMovement : MonoBehaviour {
         anim = gameObject.GetComponent<Animator>();
         eraserMove = GameObject.FindGameObjectWithTag("Eraser").GetComponent<EraserMovement>();
         didSpeedUp = false;
+        powerupElapsed = 0f;
     }
 	
 	// Update is called once per frame
@@ -57,10 +59,16 @@ public class PlayerMovement : MonoBehaviour {
                 anim.SetBool("jumped", jumped);
             }
         }
-        if (didSpeedUp && Time.deltaTime > duration)
+        if (didSpeedUp)
+        {
+            powerupElapsed += Time.deltaTime;
+        }
+        if (didSpeedUp && powerupElapsed > duration)
         {
             speed = 6;
             eraserMove.distanceToPlayer = 6;
+            didSpeedUp = false;
+            powerupElapsed = 0;
         }
     }
 }
